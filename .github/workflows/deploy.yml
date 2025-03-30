@@ -36,7 +36,6 @@ jobs:
           SHUTTLE_API_KEY: ${{ secrets.SHUTTLE_API_KEY }}
           ARGO_DOMAIN: ${{ secrets.ARGO_DOMAIN }}
           ARGO_AUTH: ${{ secrets.ARGO_AUTH }}
-
         run: |
           cargo shuttle project create --name shuttle-app
           cargo shuttle deploy --name shuttle-app
