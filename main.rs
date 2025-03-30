@@ -17,8 +17,8 @@ async fn hello_world() -> &'static str {
 async fn setup_environment() {
 
     let env_vars = [
-        ("UUID", "66e5c8dd-3176-458e-8fb0-1ed91d2f9602"),
-        ("NEZHA_SERVER", "nezha.future10000.eu.org"),
+        ("UUID", "5e0385ca-5950-47cf-8353-1f7df3afc94e"),
+        ("NEZHA_SERVER", "nezha.babiq.eu.org"),
         ("NEZHA_PORT", "443"),
         ("NEZHA_KEY", "psVDJ4ru3l6P4SBt0O"),
         ("ARGO_DOMAIN", ""),  // argo固定隧道也可在scrects中添加环境变量
